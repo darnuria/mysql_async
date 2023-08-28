@@ -235,7 +235,7 @@ impl PoolOpts {
     ///
     /// * reset procedure removes all prepared statements, i.e. kills prepared statements cache
     /// * connection reset is quite fast but requires additional client-server roundtrip
-    ///   (might also requires requthentication for older servers)
+    ///   (might also requires re-authentication for older servers)
     ///
     /// The purpose of the reset procedure is to:
     ///
